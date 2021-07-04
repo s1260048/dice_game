@@ -15,8 +15,8 @@ printf("Rolleing dice...\n");
   printf("dice1 : %s\n",dice1);
   printf("dice2 : %s\n",dice2);
   printf("total : %s",total);
-  if(total>7)printf("You won!");
-  else printf("You lost");
+  if(total>7)printf("%s won!",name);
+  else printf("%s lost",name);
   
   return 0;
   
